@@ -12,9 +12,9 @@ This project will read Github event from kafka broker and process them and gener
 - curl --location --request GET 'localhost:8083/metrics/repeated-word'
 
 ##### Get the most common hour in day 
-curl --location --request GET 'localhost:8083/metrics/common-hour'
+- curl --location --request GET 'localhost:8083/metrics/common-hour'
 
- #### In the command prompt
+#### In the command prompt
  - we display the output in the command prompt for each event.
  
  ## Run the Application
