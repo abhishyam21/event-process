@@ -80,6 +80,7 @@ public class SlidingWindowForRepeatedWord {
         return wordCounter
                 .stream()
                 .filter(word -> word.getCount() == highestRank.getCount())
+                .limit(5)
                 .collect(Collectors.toCollection(TreeSet::new));
     }
 
